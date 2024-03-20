@@ -1,0 +1,87 @@
+#footer-contaner{
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px;
+    background-color: #000;
+    border: 2px solid coral;
+}
+#info-box{
+    width: 100%;
+    /* height: 70%; */
+    padding: 5% 1%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+#info-card{
+    width: 20%;
+    min-width: 200px;
+    height: 300px;
+    background-color: black;
+    color: #fff;
+    padding: 3% ;
+
+}
+#info-card h1{
+    font-family: breakfast;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+#info-card p{
+    font-family: monospace;
+    text-transform: capitalize;
+}
+#newesletter-box{
+    padding: 15px 3px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#newesletter-box input{
+    /* width: 100%; */
+height: 30px;
+
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    
+}
+#newesletter-box input::placeholder{
+    text-transform: capitalize;
+    color: #fff;
+}
+#copywrite-box{
+    border-top:2px solid coral ;
+    width: 100%;
+    /* height: 30px; */
+    padding: 3%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    
+    /* background-color: turquoise; */
+    color: #fff;
+}
+#copywrite-box h1{
+    letter-spacing: 6px;
+    font-family: chieezy-burger;
+    text-transform: uppercase;
+    font-size: 3vh;
+    -webkit-text-stroke: 2px #fba666;
+    text-shadow: 2px 3px #fba666;
+} 
+#copywrite-box p{
+    text-transform: capitalize;
+    font-family: monospace;
+}

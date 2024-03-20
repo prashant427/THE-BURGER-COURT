@@ -1,0 +1,35 @@
+@media screen and (max-width: 750px) {
+
+    #navbar{
+        display: none;
+    }
+    #login-icon{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+    }
+    #socase h1{
+        font-size: 4vh;
+    }
+    #about #lft h1{
+        font-size: 6vh;
+    }
+    #contact>#form {
+        width: auto;
+       min-width: 0;
+    }
+
+  
+
+
+}
+@media screen and (max-width: 750px) {
+
+    #form > .small-input {
+        width: auto;
+    }
+   
+
+
+}

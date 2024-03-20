@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#navbox{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #ffd0abab;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    font-family: chieezy-burger;
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    letter-spacing: 4px;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+#navbar{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px ;
+    /* background-color: lavenderblush; */
+}
+#navbar a{
+    text-decoration: none;
+    color: initial;
+    transition: all ease .3s;
+}
+#navbar a:hover{
+    color: #e39560;
+    border-bottom: 2px solid #e39560;
+}
+#navbar h4{
+    text-transform: capitalize;
+}
+#login-icon{
+    display: flex;
+}
+#hamburger{
+    display: none;
+}

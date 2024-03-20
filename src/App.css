@@ -1,0 +1,23 @@
+
+
+
+
+@font-face {
+  font-family: chieezy-burger;
+  src: url(/font/ChieezyBurger.otf);
+}
+@font-face {
+  font-family: breakfast;
+  src: url(/font/breakfastDEMO.otf);
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}

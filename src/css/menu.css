@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#menu-contaner {
+    width: 100%;
+    /* height: 90vh; */
+    background-color: #fde0c7;
+    padding: 10%;
+    
+    background-image: url(/img/beef-burger-with-chopped-onions-tomatoes-inside-bread-bun-with-french-fries-stone-platter.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    width: 80%;
+    /* height: 80%; */
+    background: rgb(251 176 116 / 48%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    color: #fff;
+}
+#menu > h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: breakfast;
+    line-height: 60px;
+}
+#menu-sec{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    padding: 5px 10px;
+}
+#menu-sec h2{
+    text-transform: uppercase;
+    font-family: breakfast;
+    line-height: 40px;
+}
+
+.productName{
+    padding: 0 10px;
+}
+.itemlist{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+.item{
+    width: 100%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+}
+.itemname{
+    width: 90%;
+    height: 100%;
+    /* background-color: khaki; */
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    
+    
+}
+.itemname .name{
+    font-family: chieezy-burger;
+    font-size: 20px;
+    
+}
+.itemname .discpt{
+    font-family: breakfast;
+    font-size: 14px;
+}
+.itemprice{
+    width: 10%;
+    height: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: breakfast;
+}
